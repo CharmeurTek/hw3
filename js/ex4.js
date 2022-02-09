@@ -2,7 +2,6 @@ var trynb = 0;
 var password;
 
 while (password !== "secret" && trynb != 3) {
-    console.log(trynb);
     password = prompt("Please enter your password: ");
     trynb++;
 }
